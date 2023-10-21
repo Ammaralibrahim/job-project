@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Logo from "../images/logo.png";
 import HomeBg from "../images/home-bg.png";
@@ -446,7 +446,7 @@ function Home() {
 
         <div className="flex flex-col lg:flex-row py-3 px-5">
           <div>
-            <img src={User} alt="User image" />
+            <img src={User} alt="User" />
           </div>
           <div class="grid">
             <div class="text-lg font-bold px-5 underline text-gray-600 ">
@@ -670,27 +670,27 @@ function Home() {
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium tracking-normal	 text-gray-500 sm:mb-0 dark:text-gray-100">
               <li>
-                <a href="#" className="mr-4 underline md:mr-6 ">
+                <a href="/" className="mr-4 underline md:mr-6 ">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="mr-4 underline md:mr-6">
+                <a href="/" className="mr-4 underline md:mr-6">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="mr-4 underline md:mr-6 ">
+                <a href="/" className="mr-4 underline md:mr-6 ">
                   Legal Disclaimer
                 </a>
               </li>
               <li>
-                <a href="#" className="underline">
+                <a href="/" className="underline">
                   Refund Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="mr-4 underline md:ml-6 ">
+                <a href="/" className="mr-4 underline md:ml-6 ">
                   Terms of Use
                 </a>
               </li>
