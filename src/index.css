@@ -5,3 +5,17 @@
 #root{
   background-color: #F7F8F9;
 }
+
+/* Webkit tarayıcıları (Google Chrome ve Safari) için scrollbar özelleştirmesi */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #01264A, #4AC97D); /* Üstten alta lineer gradient renk */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background:gray; /* Üstten alta lineer gradient renk */
+}
