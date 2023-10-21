@@ -138,7 +138,7 @@ export default function Header() {
                       </linearGradient>
                     </defs>
                   </svg>
-                  <span className="px-2 text-white lg:text-gray-900 font-bold">English</span>
+                  <span className="px-2 text-white lg:text-gray-900 font-bold flex ">English</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="12"

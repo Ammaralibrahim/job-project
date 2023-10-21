@@ -14,56 +14,56 @@ export default function Diversity() {
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  February 2022
+                Name
                 </time>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Contact Information
                 </time>
               </li>
 
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Gender
                 </time>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Birth Information
                 </time>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Country of Eligibility
                 </time>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Photograph
                 </time>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Mailing Address
                 </time>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Additional Information
                 </time>
               </li>
               <li className="mb-0 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  March 2022
+                Payment
                 </time>
               </li>
             </ol>
