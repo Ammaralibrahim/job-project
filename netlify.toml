@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/Diversity"
+  to = "/Diversity/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/PhoneNumber*"
+  to = "/PhoneNumber/index.html"
+  status = 404
