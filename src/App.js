@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Diversity" element={<Diversity />} />
-        <Route path="/PhoneNumber" element={<PhoneNumber />} />
+        <Route path="/diversity" element={<Diversity />} />
+        <Route path="/phonenumber" element={<PhoneNumber />} />
       </Routes>
     </Router>
   );
