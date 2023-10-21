@@ -9,7 +9,7 @@ function Accordion({ title, description }) {
 
   return (
     <div
-      className="bg-white  p-4 cursor-pointer  my-4 border-b-[1px] border-gray-900"
+      className="bg-white  px-2 py-5 cursor-pointer  my-4 border-b-[1px] border-gray-900"
       onClick={toggleAccordion}
     >
       <div className="flex items-center justify-between ">
