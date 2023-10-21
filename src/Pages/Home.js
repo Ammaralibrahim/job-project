@@ -26,7 +26,7 @@ function Home() {
           alt=""
         />
         <div className="relative pt-12 bg-gray-900 bg-opacity-50">
-          <div className="container px-5">
+          <div className=" px-5">
            <Header/>
           </div>
           <div className="px-5 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

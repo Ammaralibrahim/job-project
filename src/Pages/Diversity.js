@@ -8,7 +8,8 @@ export default function Diversity() {
         <Header />
       </div>
       <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0 bg-[#01264A]">
-        <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
+      <div className="inset-y-0 w-full max-w-xl mx-auto  lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
+          <div class="h-5/6 mb-5 lg:mb-0 lg:h-screen bg-[#01264A]  pt-0 lg:pt-12 flex flex-col justify-center items-center relative">
           <div className="mb-16 lg:my-32 lg:max-w-lg lg:pr-5">
             <div className="max-w-xl mb-6">
               <div className="py-4">
@@ -83,25 +84,24 @@ export default function Diversity() {
             </div>
           </div>
         </div>
+          </div>
+        </div>
         <div className="inset-y-0 right-0 w-full max-w-xl  mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
-        <div class="h-96 lg:h-screen  bg-white w-full flex flex-col justify-center items-center relative">
-  <div className="text-[#01264A] text-5xl mb-6 text-center">
-    Are you ready to begin?
-  </div>
-  <button
-    type="button"
-    class="p-3 w-2/3  mt-3 text-base font-medium text-white bg-[#49C87C] hover:bg-[#49C87C] focus:ring-4 focus:outline-none focus:ring-[#49C87C] rounded-lg text-center dark:bg-[#49C87C] dark:hover:bg-[#49C87C] dark:focus:ring-[#49C87C]"
-  >
-    Start Now!
-  </button>
-  <div className="absolute bottom-4 right-4 text-gray-500 text-center">
-    Copyright © 2016-2023 GovAssist, LLC All Rights Reserved
-  </div>
-</div>
-
-</div>
-
-      </div>
+          <div class="h-96 lg:h-screen  bg-white w-full flex flex-col justify-center items-center relative">
+            <div className="text-[#01264A] text-5xl mb-6 text-center">
+              Are you ready to begin?
+            </div>
+            <button
+              type="button"
+              class="p-3 w-2/3  mt-3 text-base font-medium text-white bg-[#49C87C] hover:bg-[#49C87C] focus:ring-4 focus:outline-none focus:ring-[#49C87C] rounded-lg text-center dark:bg-[#49C87C] dark:hover:bg-[#49C87C] dark:focus:ring-[#49C87C]"
+            >
+              Start Now!
+            </button>
+            <div className="absolute bottom-4 right-4 text-gray-500 text-center">
+              Copyright © 2016-2023 GovAssist, LLC All Rights Reserved
+            </div>
+          </div>
+        </div>
     </>
   );
 }

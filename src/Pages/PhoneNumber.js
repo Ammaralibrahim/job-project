@@ -10,15 +10,15 @@ export default function Diversity() {
       <div className="relative flex flex-col pt-20 lg:pt-0 lg:flex-col lg:pb-0 bg-[#01264A]">
         <div className="inset-y-0 w-full max-w-xl mx-auto  lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
           <div class="h-5/6 mb-5 lg:mb-0 lg:h-screen bg-[#01264A] w-64 pt-0 lg:pt-12 flex flex-col justify-center items-center relative">
-            <ol className="relative border-l border-gray-200 dark:border-gray-700">
+            <ol className="relative border-l border-gray-200 dark:border-gray-00">
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-100" />
+                <time className="mb-1 text-sm font-normal leading-none text-gray-100 dark:text-gray-500">
                 Name
                 </time>
               </li>
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-100" />
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 Contact Information
                 </time>

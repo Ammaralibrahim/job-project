@@ -19,3 +19,6 @@
 ::-webkit-scrollbar-track {
   background:gray; /* Üstten alta lineer gradient renk */
 }
+.overflow-x-auto::-webkit-scrollbar {
+  height: 4px;
+}
