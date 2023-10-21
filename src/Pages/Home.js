@@ -1,26 +1,22 @@
 import React, { useState } from "react";
 
-import "./index.css";
-import Logo from "./images/logo.png";
-import HomeBg from "./images/home-bg.png";
-import People from "./images/people.png";
-import Medal from "./images/medal-star.png";
-import Wallet from "./images/wallet.png";
-import Clock from "./images/clock.png";
-import Massage from "./images/massage.png";
-import Lovely from "./images/lovely.png";
-import Document from "./images/document.png";
-import Star from "./images/star.png";
-import User from "./images/user.png";
-import Trustpilot from "./images/trustpilot.png";
+import Logo from "../images/logo.png";
+import HomeBg from "../images/home-bg.png";
+import People from "../images/people.png";
+import Medal from "../images/medal-star.png";
+import Wallet from "../images/wallet.png";
+import Clock from "../images/clock.png";
+import Massage from "../images/massage.png";
+import Lovely from "../images/lovely.png";
+import Document from "../images/document.png";
+import Star from "../images/star.png";
+import User from "../images/user.png";
+import Trustpilot from "../images/trustpilot.png";
 import Accordion from "./dropdown-text";
+import Header from "../components/Header"
 
 function Home() {
-  const [isMenuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
   return (
     <>
       <div className="relative">
@@ -31,59 +27,7 @@ function Home() {
         />
         <div className="relative pt-12 bg-gray-900 bg-opacity-50">
           <div className="container px-5">
-            <nav className="bg-white border-gray-200 dark:bg-gray-900 rounded-xl">
-              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="https://flowbite.com/" className="flex items-center">
-                  <img src={Logo} className="h-12 mr-3" alt="Flowbite Logo" />
-                </a>
-                <div className="flex items-center md:order-2">
-                  {/* Dropdown */}
-                  <button
-                    onClick={toggleMenu}
-                    data-collapse-toggle="navbar-language"
-                    type="button"
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-language"
-                    aria-expanded={isMenuOpen}
-                  >
-                    <span className="sr-only">Open main menu</span>
-                    <svg
-                      className="w-5 h-5"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 17 14"
-                    >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M1 1h15M1 7h15M1 13h15"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <div
-                  className={`${
-                    isMenuOpen ? "block" : "hidden"
-                  } items-center justify-between w-full md:flex md:w-auto md:order-1`}
-                  id="navbar-language"
-                >
-                  <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                      <button
-                        type="button"
-                        data-dropdown-toggle="language-dropdown-menu"
-                        class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
-                      >
-                        English (US)
-                      </button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+           <Header/>
           </div>
           <div className="px-5 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="flex flex-col items-center justify-between xl:flex-row">
@@ -101,25 +45,25 @@ function Home() {
                     <span className="underline">apply here!</span>
                   </div>
                   <div className="flex justify-between gap-2 py-2">
-                    <div className="bg-gray-900 text-white w-[60px] h-[70px] shrink-0 rounded-[14px] text-center py-3">
+                    <div className="bg-gray-900 text-white w-[60px] h-[60px] shrink-0 rounded-[14px] text-center py-2.5">
                       <p className="font-bold text-sm">27</p>
                       <p className="font-thin text-gray-400 text-xs uppercase">
                         Days
                       </p>
                     </div>
-                    <div className="bg-gray-900 text-white w-[60px] h-[70px] shrink-0 rounded-[14px] text-center py-3">
+                    <div className="bg-gray-900 text-white w-[60px] h-[60px] shrink-0 rounded-[14px] text-center py-2.5">
                       <p className="font-bold text-sm">24</p>
                       <p className="font-thin text-gray-400 text-xs uppercase">
                         Hours
                       </p>
                     </div>
-                    <div className="bg-gray-900 text-white w-[60px] h-[70px] shrink-0 rounded-[14px] text-center py-3">
+                    <div className="bg-gray-900 text-white w-[60px] h-[60px] shrink-0 rounded-[14px] text-center py-2.5">
                       <p className="font-bold text-sm">60</p>
                       <p className="font-thin text-gray-400 text-xs uppercase">
                         Minutes
                       </p>
                     </div>
-                    <div className="bg-gray-900 text-white w-[60px] h-[70px] shrink-0 rounded-[14px] text-center py-3">
+                    <div className="bg-gray-900 text-white w-[60px] h-[60px] shrink-0 rounded-[14px] text-center py-2.5">
                       <p className="font-bold text-sm">60</p>
                       <p className="font-thin text-gray-400 text-xs uppercase">
                         Seconds
@@ -163,7 +107,7 @@ function Home() {
               </div>
               <div className="relative py-3 sm:max-w-md sm:mx-auto">
                 {" "}
-                <div className="relative px-2 py-8 bg-white md:mx-0 shadow rounded-3xl ">
+                <div className="relative px-8 py-8 bg-white md:mx-0 shadow rounded-3xl ">
                   {" "}
                   <div className="max-w-md mx-auto">
                     <div className="flex w-[220px] justify-between ">
@@ -184,8 +128,7 @@ function Home() {
                       Green card eligibility
                     </div>
                     <div className="flex items-center space-x-3">
-                      <div className="flex flex-col">
-                        <label className="text-transparent">Start</label>
+                      <div className="flex flex-col py-3">
                         <div className="relative  focus-within:text-gray-600 text-gray-400">
                           <input
                             type="text"
@@ -195,8 +138,7 @@ function Home() {
                           <div className="absolute left-3 top-2"></div>
                         </div>
                       </div>
-                      <div className="flex flex-col">
-                        <label className="text-transparent">End</label>
+                      <div className="flex flex-col py-3">
                         <div className="relative  focus-within:text-gray-600 text-gray-400">
                           <input
                             type="text"
@@ -208,8 +150,7 @@ function Home() {
                       </div>
                     </div>
                     <div className="flex items-center space-x-3">
-                      <div className="flex flex-col">
-                        <label className="text-transparent">Start</label>
+                      <div className="flex flex-col py-3">
                         <div className="relative  focus-within:text-gray-600 text-gray-400">
                           <input
                             type="text"
@@ -219,8 +160,7 @@ function Home() {
                           <div className="absolute left-3 top-2"></div>
                         </div>
                       </div>
-                      <div className="flex flex-col">
-                        <label className="text-transparent">End</label>
+                      <div className="flex flex-col py-3">
                         <div className="relative  focus-within:text-gray-600 text-gray-400">
                           <input
                             type="text"
